@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* container style */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 9%;
+}
+
+/*Places Information  style*/
+.information {
+  color: rgb(255, 251, 251);
+  padding: 10px;
+  margin: 60% 0 9% 10%;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.information h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.information p {
+  font-size: 23px;
+}
+
+/* Information and button style */
+.info-all {
+  opacity: 0;
+}
+
+/* Information see more button */
+.btn-all {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 16px 1px;
+  text-align: center;
+  margin: 20px 0 0 30%;
+  outline: none;
+  border: none;
+}
+
+.btn-all a {
+  color: white;
+  text-decoration: none;
+  padding: 19px 32px;
+  font-size: 20px;
+}
+
+/* All cards style */
+.card-all {
+  width: 450px;
+  height: 650px;
+  margin: 50px;
+  transition: 0.8s ease-in-out;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* North East India */
+.card {
+  background-image: url(https://images.unsplash.com/photo-1613725194245-d8e21cf5d42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+}
+
+/* Venice Italy */
+.card1 {
+  background-image: url(https://images.unsplash.com/photo-1603489243637-66c1cfdd9b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+/* Paris France */
+.card2 {
+  background-image: url(https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+/* New York Usa  */
+.card3 {
+  background-image: url(https://images.unsplash.com/photo-1515081774057-84dcf72d0cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);
+}
+
+/* Hover effect for all cards */
+.card-all:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.card-all:hover .info-all {
+  opacity: 1;
+}
+
+/* North East India  Hover*/
+.card:hover {
+  background-image: url(https://images.unsplash.com/photo-1562413181-9013f9846bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=664&q=80);
+}
+
+/* Venice Italy hover */
+.card1:hover {
+  background-image: url(https://images.unsplash.com/photo-1480548004877-593316be2bd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+/* Paris France Hover */
+.card2:hover {
+  background-image: url(https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+}
+
+/* New York Usa Hover */
+.card3:hover {
+  background-image: url(https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=706&q=80);
+}
+
+/* footer */
+footer {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
